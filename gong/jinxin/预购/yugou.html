@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/yugou.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_bl1x1pla89mb1emi.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/animate.js"></script>
+    <link rel="stylesheet" href="http:////at.alicdn.com/t/font_g9xeburtbq2dquxr.css">
+</head>
+<body>
+    <div class="tou">
+        <div class="container">
+            <div class="row">
+                <div class="log col-md-4 col-lg-6">
+                    <img src="img/1.png" alt="" class="log1">
+                </div>
+                <div class="danghang  col-md-8 col-lg-6 hidden-sm-down">
+                        <ul class="row">
+                            <li class="col-lg-1 col-sm-1"><a href="">首页</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">关于我们</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">服务产业</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">业务商品</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href=""   class="active1">预购服务</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">新闻中心</a></li>
+                            <li class="col-lg-1 col-sm-1"><a href="">联系</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="icon-caidan hidden-md-up cd"> </div>
+        <div class="cdbj">
+            <p>首页</p>
+            <p>关于我们</p>
+            <p>服务产业</p>
+            <p>业务商品</p>
+            <p class="active1">预购服务</p>
+            <p>新闻中心</p>
+            <p>联系</p>
+        </div>
+    </div>
+
+    <script>
+        $('.cdbj').slideUp();
+        $('.cd').click(function () {
+            $('.cdbj').slideToggle(600);
+            if($('.cd').attr('class')=='icon-caidan hidden-md-up cd'){
+                $('.cd').attr('class','icon-guanbi hidden-md-up cd');
+            }else{
+                $('.cd').attr('class','icon-caidan hidden-md-up cd');
+            }
+        })
+    </script>
+    <!--banner开始-->
+    <div class="banner">
+        <ul class="ul1">
+            <li class="active4">
+                <img src="img/13.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+    <!--banner结束-->
+    <!--预购服务开始-->
+       <div class="yugouk">
+           <div class="container">
+               <h2>预购服务</h2>
+               <p class="p1">service centre</p>
+               <ul class="row ygnei">
+                   <li class="col-lg-6">
+                       <p>&nbsp;</p>
+                       <p>一、预约方式：</p>
+                       <p>观众通过电话、现场预约二种方式进行预约，预约时需提供预约登记相关信息，领取预约号。</p>
+                       <p>二、电话预约：</p>
+                       <p>1、预约电话：0791—66666666 38888888</p>
+                       <p>2、预约时间：每周二至周日，每天9:00-16:30（周一闭馆，法定节假日除外）。</p>
+                       <p>四、预约观众在参观当日凭预约号或预约时使用的有效证件号领取免费参观券。</p>
+                       <p>五、需要预约的观众须至少提前1天进行预约，每次可选择的预约时段为6天，当天门票不能预约。</p>
+                       <p>六、预约采取实名制，须提供预约人的姓名、联系方式、有效证件号码等信息，每人每次预约免费票不超过5张。</p>
+                       <p>&nbsp;</p>
+                   </li>
+                   <li class="col-lg-6">
+                       <img src="img/14.jpg" alt="">
+                   </li>
+               </ul>
+               <ul class="row yg2">
+                   <li class="col-lg-4">
+                       <img src="img/8.png" alt="">
+                   </li>
+                   <li class="col-lg-4">
+                       <img src="img/10.png" alt="">
+                   </li>
+                   <li class="col-lg-4">
+                       <img src="img/11.png" alt="">
+                   </li>
+               </ul>
+           </div>
+       </div>
+    <!--预购服务结束-->
+    <!--联系我们开始-->
+    <div class="container lianxik">
+        <ul class="row endx">
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">关于我们</a></h4>
+                <ul>
+                    <li><a href="">认识我们</a></li>
+                    <li><a href="">加入我们</a></li>
+                    <li><a href="">联系</a></li>
+
+                </ul>
+            </li>
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">服务产业</a></h4>
+                <ul>
+                    <li><a href="">生态农业基地</a></li>
+                    <li><a href="">小农自然栽种</a></li>
+                    <li><a href="">纯天然原料</a></li>
+
+                </ul>
+            </li>
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">业务商品</a></h4>
+                <ul>
+                    <li><a href="">绿色蔬菜</a></li>
+                    <li><a href="">热销水果</a></li>
+                    <li><a href="">米面杂粮</a></li>
+
+                </ul>
+            </li>
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">新闻中心</a></h4>
+                <ul>
+                    <li><a href="">食物记事</a></li>
+                    <li><a href="">专题博客</a></li>
+                </ul>
+            </li>
+            <li class="col-sm-12 col-lg-3 tubiaolog">
+                <div class="kong"></div>
+                <ul class="row ">
+                    <li class="col-sm-3 col-lg-3"><a href="" class=""></a></li>
+                    <li class="col-sm-2 col-lg-2"><a href="" class="icon-wenxin-whit"></a></li>
+                    <li class="col-sm-2 col-sm-2 col-lg-2"><a href="" class="icon-qq"></a></li>
+                    <li class="col-sm-2 col-lg-2"><a href="" class="icon-weibo"></a></li>
+                    <li class="col-sm-3 col-lg-3"><a href="" class=""></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--联系我们结束-->
+
+<!--end开始-->
+    <div class="endk">
+        <p>生态农业公司 版权所有 © 2008-2016 湘ICP备8888888 </p>
+        <p>本页面内容为网站演示数据，前台页面内容都可以在后台修改。</p>
+        <p>Powered by
+            <a href="">MetInfo</a>
+            5.3.17
+        </p>
+    </div>
+</body>
+</html>
+<script>
+    let aa = document.body.scrollTop? document.body: document.documentElement;
+    let h2 = document.querySelectorAll('h2');
+    console.log(h2.length);
+    h2.forEach(function (value,index) {
+        if(aa.scrollTop>400){
+//            value.classList.add('active6')
+            animate(value,{opcity:0.5},800);
+        }
+    })
+
+</script>

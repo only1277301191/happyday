@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/iconfontcss.css">
+    <script src="js/iscroll.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="big-img">
+
+    </div>
+    <header class="container">
+        <div class="menu iconfont icon-caidan"></div>
+        <div class="menu-list">
+            <span class="logo">宁慧婷</span>
+            <ul class="hidden-xs hidden-sm">
+                <li class="active">个人</li>
+                <li>技能</li>
+                <li>我能做什么</li>
+                <li>作品</li>
+                <li>爱好</li>
+                <li>工作经历</li>
+                <li>座右铭</li>
+                <div class="index"></div>
+            </ul>
+            <span class="iconfont icon-Group more">
+                <ul class="morelist">
+                    <!--<li class="iconfont icon-download">-->
+                    <!--<span>Download CV</span>-->
+                    <!--</li>-->
+                    <!--<li class="iconfont icon-ht_notice">-->
+                    <!--<span>Contact Me</span>-->
+                    <!--</li>-->
+                    <li class="iconfont icon-call">
+                        <span>15735921210</span>
+                    </li>
+                </ul>
+                </span>
+
+        </div>
+
+    </header>
+    <section class="container">
+        <div class="row">
+            <div class="mode card">
+                <canvas id="mycanvas" style="position:absolute; margin: -45px -25px; width: 100%"></canvas>
+                <div class="card-pic col-md-5 col-xs-12">
+                    <div class="img-content">
+                        <img src="img/me.jpg" alt="">
+                    </div>
+                    <ul class="social">
+                        <li class="iconfont icon-Ankerwebicon-">
+                            <div class="label">
+                                onlyone
+                            </div>
+                        </li>
+                        <li class="iconfont icon-twitter">
+                            <div class="label">
+                                TXcat
+                            </div>
+                        </li>
+                        <li class="iconfont icon-dribblepure">
+                            <div class="label">
+                                dribbble
+                            </div>
+                        </li>
+                        <li class="iconfont icon-inst">
+                            <div class="label">
+                                ScorpioCat
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="detail col-md-7 col-xs-12">
+                    <h1>宁慧婷</h1>
+                    <h5>Front-End Development</h5>
+                    <!--<div class="detail-button">-->
+                    <!--<button class="download">download cv</button>-->
+                    <!--<button class="contact">contact</button>-->
+                    <!--</div>-->
+                    <ul class="contactway">
+                        <li>
+                            <span class="name">age</span>
+                            <span class="desc">23</span>
+                        </li>
+                        <li>
+                            <span class="name">Address</span>
+                            <span class="desc">西安市雁塔区</span>
+                        </li>
+                        <li>
+                            <span class="name">Email</span>
+                            <span class="desc">1277301191@qq.com</span>
+                        </li>
+                        <li>
+                            <span class="name">Phone</span>
+                            <span class="desc">15735921210</span>
+                        </li>
+                        <li>
+                            <span class="name">毕业院校</span>
+                            <span class="desc">运城学院</span>
+                        </li>
+                        <li>
+                            <span class="name">专业</span>
+                            <span class="desc">计算机科学与技术</span>
+                        </li>
+                        <li>
+                            <span class="name">学历</span>
+                            <span class="desc">本科</span>
+                        </li>
+                        <li>
+                            <span class="name">Freelance</span>
+                            <span class="desc">离职中</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Technical Skills<-->
+            <div class="mode skills technical">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <h2>专业技能</h2>
+                        <div class="tech-skill">
+                            <ul>
+                                <li>
+                                    <span>H5 && CSS3</span>
+                                    <div class="progress">
+                                        <div data="60" class="cur-progress"></div>
+                                        <span data="60" class="dot"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>JavaScript & ES 6.0</span>
+                                    <div class="progress">
+                                        <div data="60" class="cur-progress"></div>
+                                        <span data="60" class="dot"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Vue.js</span>
+                                    <div class="progress">
+                                        <div data="50" class="cur-progress"></div>
+                                        <span data="50" class="dot"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <h2>综合能力</h2>
+                        <div class="tech-skill">
+                            <ul>
+                                <li>
+                                    <span>服务端协作</span>
+                                    <div class="progress">
+                                        <div data="50" class="cur-progress"></div>
+                                        <span data="50" class="dot"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>良好的文档阅读能力</span>
+                                    <div class="progress">
+                                        <div data="70" class="cur-progress"></div>
+                                        <span data="70" class="dot"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>技术难点攻关</span>
+                                    <div class="progress">
+                                        <div data="45" class="cur-progress"></div>
+                                        <span data="45" class="dot"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--What I Do-->
+            <div class="mode skills whatido">
+                <h2>我能做什么</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="tech-skill">
+                            <div class="title">
+                                <span class="iconfont icon-penqi"></span>
+                            </div>
+                            <h4>User Interface</h4>
+                            <p>能够完成常见的布局组合</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="tech-skill">
+                            <div class="title">
+                                <span class="iconfont icon-ziti"></span>
+                            </div>
+                            <h4>JS & CSS</h4>
+                            <p>熟悉各种web端特效与常见的交互方式</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="tech-skill">
+                            <div class="title">
+                                <span class="iconfont icon-xinxi3"></span>
+                            </div>
+                            <h4>Vue & React & Node.js</h4>
+                            <p>国内主流的前端自动化工具项目经验</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="tech-skill">
+                            <div class="title">
+                                <span class="iconfont icon-pingtaizhanlue"></span>
+                            </div>
+                            <h4>cooperation</h4>
+                            <p>拥有良好的团队合作能力</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Portfolio-->
+            <div class="mode skills portfolio1">
+                <div class="title">
+                    <h2>作品展示</h2>
+                    <ul class="selector">
+                        <!--<li class="active">ALL</li>-->
+                        <!--<li>BRANDING</li>-->
+                        <!--<li>DESIGN</li>-->
+                        <!--<li>PHOTO</li>-->
+                        <!--<li class="end">WEB</li>-->
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="tech-skill portfolio">
+                            <a href="http://fastnews.duapp.com" class="img-box">
+                                <img src="img/news.png" alt="">
+                                <span style="color: black;">每日快讯(React)</span>
+                            </a>
+                            <div class="comment">
+                                <span class="iconfont icon-view"></span>
+                                <span class="iconfont icon-commentline"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="tech-skill portfolio">
+                            <a href="http://fasttake.duapp.com" class="img-box">
+                                <img src="img/jisu.png" alt="">
+                                <span style="color: black;">极速外卖(Vue、Node.js)</span>
+                            </a>
+                            <div class="comment">
+                                <span class="iconfont icon-view"></span>
+                                <span class="iconfont icon-commentline"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="tech-skill portfolio">
+                            <a href="http://haiktv.duapp.com" class="img-box">
+                                <img src="img/ktv.png" alt="">
+                                <span style="color: black;">神话KTV(Vue、Node.js)</span>
+                            </a>
+                            <div class="comment">
+                                <span class="iconfont icon-view"></span>
+                                <span class="iconfont icon-commentline"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="tech-skill portfolio">
+                            <a href="gong/jinxin/首页/shouye.html" class="img-box">
+                                <img src="img/11.png" alt="">
+                                <span style="color: black;">金星农业</span>
+                            </a>
+                            <div class="comment">
+                                <span class="iconfont icon-view"></span>
+                                <span class="iconfont icon-commentline"></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!--Interests-->
+            <div class="mode skills interests">
+                <h2>兴趣爱好</h2>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="tech-skill interests-child">
+                            <span class="tubiao iconfont icon-ic_radio_px"></span>
+                            <span class="name">电子音乐</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="tech-skill interests-child">
+                            <span class="tubiao iconfont icon-shouji"></span>
+                            <span class="name">主机游戏</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="tech-skill interests-child">
+                            <span class="tubiao iconfont icon-xiangji"></span>
+                            <span class="name">摄影</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="tech-skill interests-child">
+                            <span class="tubiao iconfont icon-shuben"></span>
+                            <span class="name">看书</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="tech-skill interests-child">
+                            <span class="tubiao iconfont icon-feiji"></span>
+                            <span class="name">旅行</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="tech-skill interests-child">
+                            <span class="tubiao iconfont icon-lanqiu"></span>
+                            <span class="name">户外运动</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Experience-->
+            <div class="mode skills experience">
+
+                <h2>工作经历</h2>
+                <div class="row">
+                    <ul class="experience-child">
+                        <li class="col-xs-12 col-sm-6">
+                            <div class="indica iconfont icon-gongwenbao"></div>
+                            <div class="ex-child ">
+                                <h4>Web Front-End Developm</h4>
+                                <span class="date">10月 / 2015年 —— 9月 / 2017年</span>
+                                <span class="origin">太原映辉科技有限公司</span>
+                                <p>
+                                    从事基于主流浏览器的PC端和移动端的应用开发
+                                </p>
+                                <p>
+                                    主要负责 <br/>
+                                    1、完成PC端页面的布局，使用CSS3和ES6的新特性实现网站交互动效。<br/>
+                                    2、利用js，jquery技术实现动态页面的交互效果。<br/>
+                                    3、进行基于Vue的WebApp开发。 <br/>
+                                    4、进行mysql数据库开发。<br/>
+                                    5、根据现有项目，根据需求进行二次开发。<br/>
+                                    6、探索研究热门技术并应用到项目中。<br/>
+                                    7、与后台进行协作开发、数据对接。<br/>
+                                    8、对设计师提出的用户界面需求给出解决方案和技术评估。<br/>
+
+                                </p>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mode skills testimonial">
+                <h2>座右铭</h2>
+                <div class="row">
+                    <div class="col-xs-12 testimonial-main">
+                        <canvas id="linecanvas" style="position:absolute;margin: -35px -50px;"></canvas>
+                        <div class="scrol-child">
+                            <div class="scrol-child-main">
+                                <ul class="scrol-child-main-child">
+                                    <li>
+                                        <blockquote>
+                                            设计软件有两种方法：一种是简单到明显没有缺陷，另一种复杂到缺陷不那么明显。</blockquote>
+                                        <span class="date">——  托尼·霍尔</span>
+                                        <span class="origin">“There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.”</span>
+                                        <span class="date">——  C.A.R. Hoare</span>
+                                    </li>
+                                    <li>
+                                        <blockquote>“用代码行数来衡量程序的开发进度，就好比用重量来衡量飞机的制造进度。"</blockquote>
+                                        <span class="date">—— 比尔·盖茨</span>
+                                        <span class="origin">Measuring programming progress by lines of code is like measuring aircraft building progress by weight. </span>
+                                        <span class="date">—— Bill Gates</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="button">
+                                <div class="right iconfont icon-youjiantou"></div>
+                                <div class="left iconfont icon-xia"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="container">
+        <h4>Thank You For Visiting.</h4>
+        <p>Wuyao 2017. All rights reserved.</p>
+        <ul class="social">
+            <li class="iconfont icon-Ankerwebicon-">
+                <div class="label">
+                    facebook
+                </div>
+            </li>
+            <li class="iconfont icon-twitter">
+                <div class="label">
+                    twitter
+                </div>
+            </li>
+            <li class="iconfont icon-dribblepure">
+                <div class="label">
+                    dribbble
+                </div>
+            </li>
+            <li class="iconfont icon-inst">
+                <div class="label">
+                    instagram
+                </div>
+            </li>
+        </ul>
+    </footer>
+</div>
+
+<div class="wrapper slidemenu">
+    <div class="content">
+        <div class="col-xs-12">
+            <img src="img/me.jpg" alt="">
+            <h1>宁慧婷</h1>
+            <ul class="social">
+                <li class="iconfont icon-Ankerwebicon-"></li>
+                <li class="iconfont icon-twitter"></li>
+                <li class="iconfont icon-linkedin"></li>
+                <li class="iconfont icon-dribblepure"></li>
+                <li class="iconfont icon-inst"></li>
+            </ul>
+        </div>
+        <ul>
+            <li>
+                <span class="pic iconfont icon-qianbi01"></span>
+                <span class="text">个人</span>
+            </li>
+            <li>
+                <span class="pic iconfont icon-huabi"></span>
+                <span class="text">技能</span>
+            </li>
+            <li>
+                <span class="pic iconfont icon-shuben"></span>
+                <span class="text">我能做什么</span>
+            </li>
+            <li>
+                <span class="pic iconfont icon-gongwenbao"></span>
+                <span class="text">作品展示</span>
+            </li>
+            <li>
+                <span class="pic iconfont icon-qianbi01"></span>
+                <span class="text">爱好</span>
+            </li>
+            <li>
+                <span class="pic iconfont icon-dunpai"></span>
+                <span class="text">工作经历</span>
+            </li>
+            <li>
+                <span class="pic iconfont icon-blogger"></span>
+                <span class="text">座右铭</span>
+            </li>
+        </ul>
+        <p class="col-xs-12">宁慧婷 © 2017.</p>
+    </div>
+</div>
+</body>
+<script>
+    // window.onload = function () {
+    let myCanvas = document.querySelector("#mycanvas");
+    myCanvas.width = myCanvas.parentNode.offsetWidth;
+    myCanvas.height = myCanvas.parentNode.offsetHeight;
+    let ctx = myCanvas.getContext("2d");
+    ctx.fillStyle = "blue";
+
+    class Line{
+        constructor(lineX, flag, height, speed, positionY, color, hudu){
+            this.lineX = lineX;
+            this.positionY = positionY;
+            this.flag = flag;
+            this.k = 1;
+            this.height = height;
+            this.speed = speed;
+            this.originY = positionY;
+            this.color = color;
+            this.hudu = hudu;
+        }
+        drawLine() {
+            ctx.moveTo(0, this.originY);
+            ctx.fillStyle = this.color;
+            ctx.beginPath();
+            let s = this.lineX += this.speed;
+            this.originY = Math.sin(s* Math.PI / 180) * 20+ 200;
+            for(let i = 0; i <= window.innerWidth; i+=this.hudu){
+                ctx.lineTo(i, Math.sin(s* Math.PI / 180) * this.height * this.k+ this.positionY);
+                s += 1;
+            }
+            ctx.lineTo(window.innerWidth, window.innerHeight);
+            ctx.lineTo(0, window.innerHeight);
+            ctx.lineTo(0,  this.originY);
+            ctx.fill();
+            this.k += this.flag;
+            if(this.k >=1.5 || this.k <= 1){
+                this.flag *= -1;
+            }
+            console.log(this.originY);
+        }
+    }
+
+    let color = "rgba(95, 108, 119,";
+    let lines= [];
+    lines.push(new  Line(0, 0.005, 25, 2, 500, color + ".8)", 10));
+    lines.push(new  Line(20, 0.004, 40, 1, 400, color + ".6)", 3));
+    lines.push(new  Line(40, 0.003, 30, 3, 300, color + ".4)", 7));
+    lines.push(new  Line(40, 0.007, 20, 4, 200, color + ".2)", 4));
+    setInterval(function () {
+        ctx.clearRect(0 ,0,myCanvas.width, myCanvas.height);
+        lines.forEach(function (value) {
+            value.drawLine();
+        })
+    }, 30);
+    // }
+
+</script>
+
+<script>
+    // window.onload = function () {
+    let linecanvas = document.querySelector("#linecanvas");
+    linecanvas.width = window.innerWidth;
+    linecanvas.height = window.innerHeight
+    let linectx = linecanvas.getContext("2d");
+    // 用于存储每条直线两端的点坐标
+    let pointArray = new Array();
+    //        // 用于存储每条直线上的交点坐标
+    let intsecArr = new Array();
+    //        // 用于存储每条直线的移动速率
+    let speedArr = new Array();
+    //        // 获取每条直线的初始位置
+    function getOriginCoordinate() {
+        //            // 初始化每条直线的两点坐标
+        let originX = 0, originY = 0;
+        let targetX = 0, tartgetY = window.innerHeight;
+        originX = Math.round(Math.random() * window.innerWidth);
+        targetX = Math.round(Math.random() * window.innerWidth);
+        pointArray.push([originX, originY, targetX, tartgetY]);
+        //            // 随机生成相应的移动速率
+        speedArr.push(Math.random() * 1);
+    }
+    //
+    //        // 更新每条直线两端点的坐标
+    function updataCoordinate() {
+        pointArray.forEach(function (value, index) {
+            // 当每条直线的两端点全部移出画布外面时，改变移动方向
+            if ((value[0] >= linecanvas.offsetWidth && value[2] >= linecanvas.offsetWidth) ||
+                (value[0] <= 0 && value[2] <= 0)) {
+                speedArr[index] *= -1;
+            }
+            // 通过不断累加改变相应端点的X值
+            pointArray[index][0] += speedArr[index];
+            pointArray[index][2] += speedArr[index];
+        });
+    }
+
+
+    //
+    //        // 绘制每条直线
+    function drawLine() {
+        pointArray.forEach(function (value, index) {
+            linectx.beginPath();
+            linectx.moveTo(value[0], value[1]);
+            linectx.lineTo(value[2], value[3]);
+            linectx.strokeStyle = "rgb(84,84,84)";
+            linectx.stroke();
+            linectx.closePath();
+        });
+    }
+    //
+    // 获取每条直线上存在的交点坐标
+    function intersectingPoint() {
+        intsecArr = null;
+        intsecArr = [];
+        pointArray.forEach(function (value, index) {
+            for (let i = index + 1; i < pointArray.length; i++) {
+                intsecArr.push(getCoordinate(value, pointArray[i]));
+            }
+        });
+    }
+    //
+    //        // 根据两条直线的四个端点坐标求得交点坐标
+    function getCoordinate(line1, line2) {
+        let a1 = line1[3] - line1[1];
+        let b1 = line1[0] * (line1[3] - line1[1]) + line1[1] * (line1[2] - line1[0]);
+        let c1 = line1[2] - line1[0];
+        let a2 = line2[3] - line2[1];
+        let b2 = line2[0] * (line2[3] - line2[1]) + line2[1] * (line2[2] - line2[0]);
+        let c2 = line2[2] - line2[0];
+
+        let coordinateX = (b1 * c2 - b2 * c1) / (a1 * c2 - a2 * c1);
+        let coordinateY = (a1 * b2 - a2 * b1) / (a2 * c1 - a1 * c2);
+        return [coordinateX, coordinateY];
+    }
+    //
+    // 绘制每条直线上的交点
+    function drawIntsecPoint() {
+        intsecArr.forEach(function (value, index) {
+            // 如果交点坐标偏离画布则不绘制
+            if (value[0] >= linecanvas.offsetWidth || value[2] <= 0) {
+                return;
+            }
+            if (value[1] >= linecanvas.offsetHeight || value[3] <= 0) {
+                return;
+            }
+            linectx.beginPath()
+            linectx.moveTo(value[0], value[1]);
+            linectx.fillStyle = "rgb(84,84,84)";
+            linectx.arc(value[0], value[1], 3, 0, Math.PI * 2);
+            linectx.fill();
+            linectx.closePath();
+        });
+    }
+    //
+    // 生成每条直线初始位置
+    for (let i = 0; i < 10; i++) {
+        getOriginCoordinate();
+    }
+    //        // 循环绘制所有图形
+    function go() {
+        // 清空旧图形
+        linectx.save();
+        linectx.fillStyle = "rgba(43, 43, 43, 1)";
+        linectx.fillRect(0, 0, linecanvas.offsetWidth, linecanvas.offsetHeight);
+        linectx.restore();
+        // 获取交点
+        intersectingPoint();
+        // 绘制直线
+        drawLine();
+        // 绘制交点
+        drawIntsecPoint();
+        //更新直线位置
+        updataCoordinate();
+    }
+
+    window.setInterval(go, 20);
+    // } </script>
+</html>

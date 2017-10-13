@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/fuwu.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_bl1x1pla89mb1emi.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/animate.js"></script>
+    <link rel="stylesheet" href="http:////at.alicdn.com/t/font_g9xeburtbq2dquxr.css">
+</head>
+<body>
+    <div class="tou">
+        <div class="container">
+            <div class="row">
+                <div class="log col-md-4 col-lg-6">
+                    <img src="img/1.png" alt="" class="log1">
+                </div>
+                <div class="danghang  col-md-8 col-lg-6 hidden-sm-down">
+                        <ul class="row">
+                            <li class="col-lg-1 col-sm-1"><a href="">首页</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">关于我们</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href=""  class="active1">服务产业</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">业务商品</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">预购服务</a></li>
+                            <li class="col-lg-2 col-sm-2"><a href="">新闻中心</a></li>
+                            <li class="col-lg-1 col-sm-1"><a href="">联系</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="icon-caidan hidden-md-up cd"> </div>
+        <div class="cdbj">
+            <p>首页</p>
+            <p>关于我们</p>
+            <p>服务产业</p>
+            <p>业务商品</p>
+            <p class="active1">预购服务</p>
+            <p>新闻中心</p>
+            <p>联系</p>
+        </div>
+    </div>
+    <script>
+        $('.cdbj').slideUp();
+        $('.cd').click(function () {
+            $('.cdbj').slideToggle(600);
+            if($('.cd').attr('class')=='icon-caidan hidden-md-up cd'){
+                $('.cd').attr('class','icon-guanbi hidden-md-up cd');
+            }else{
+                $('.cd').attr('class','icon-caidan hidden-md-up cd');
+            }
+        })
+    </script>
+    <!--banner开始-->
+    <div class="banner">
+        <ul class="ul1">
+            <li class="active4">
+                <img src="img/14.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+
+    <!--banner结束-->
+    <div class="bannerxia">
+        <div class="container bnxia1">
+            <p>
+                <span class="active1">认识我们</span>
+                <span>加入我们</span>
+                <span>联系</span>
+            </p>
+        </div>
+    </div>
+    <!--关于我们开始-->
+   <div class="fwk">
+       <div class="container swkx">
+           <ul class="row ul2">
+               <li class="col-sm-10 offset-md-1 col-md-5 col-lg-5">
+                   <img src="img/9.png" alt="">
+               </li>
+               <li class="col-sm-10 offset-md-1 col-md-4 col-lg-4">
+                   <img src="img/10.png" alt="">
+               </li>
+               <li class="col-sm-10 offset-md-1 col-md-3 col-lg-3">
+                   <img src="img/11.png" alt="">
+               </li>
+           </ul>
+           <ul class="row ul3">
+               <li class="col-sm-10 offset-md-1 col-md-5 col-lg-5">
+                   <h4>生态农业基地</h4>
+                   <p>农业生产方面的科学技术以及专门针对农村以及城市生活方面和一些简单的农产品加工技术包括种植，
+                       养殖，化肥农药的用法，各种生产资料的鉴别，高效农业生产模式等几方面。
+                   </p>
+               </li>
+               <li class="col-sm-10 offset-md-1 col-md-4 col-lg-4">
+                   <h4>小农自然栽种</h4>
+                   <p>邓小平说过：“科学技术是第一生产力”，我们赖以生存的基础是农业，从狩猎到养殖从采摘野果到种植工作者，
+                       离不开劳动人民在生产中的探索和研究，
+                   </p>
+               </li>
+               <li class="col-sm-10 offset-md-1 col-md-3 col-lg-3">
+                   <h4>纯天然原料</h4>
+                   <p>今天，我们生活在物质丰富的年代，但是，我们不能忘记农业仍然需要发展，更需要科学。
+                   </p>
+               </li>
+           </ul>
+           <div class="kongbai"></div>
+       </div>
+   </div>
+    <!--关于我们结束-->
+    <!--联系我们开始-->
+    <div class="container lianxik">
+        <ul class="row endx">
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">关于我们</a></h4>
+                <ul>
+                    <li><a href="">认识我们</a></li>
+                    <li><a href="">加入我们</a></li>
+                    <li><a href="">联系</a></li>
+
+                </ul>
+            </li>
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">服务产业</a></h4>
+                <ul>
+                    <li><a href="">生态农业基地</a></li>
+                    <li><a href="">小农自然栽种</a></li>
+                    <li><a href="">纯天然原料</a></li>
+
+                </ul>
+            </li>
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">业务商品</a></h4>
+                <ul>
+                    <li><a href="">绿色蔬菜</a></li>
+                    <li><a href="">热销水果</a></li>
+                    <li><a href="">米面杂粮</a></li>
+
+                </ul>
+            </li>
+            <li class="col-sm-6 col-lg-2 li1">
+                <h4><a href="">新闻中心</a></h4>
+                <ul>
+                    <li><a href="">食物记事</a></li>
+                    <li><a href="">专题博客</a></li>
+                </ul>
+            </li>
+            <li class="col-sm-12 col-lg-3 tubiaolog">
+                <div class="kong"></div>
+                <ul class="row ">
+                    <li class="col-sm-3 col-lg-3"><a href="" class=""></a></li>
+                    <li class="col-sm-2 col-lg-2"><a href="" class="icon-wenxin-whit"></a></li>
+                    <li class="col-sm-2 col-sm-2 col-lg-2"><a href="" class="icon-qq"></a></li>
+                    <li class="col-sm-2 col-lg-2"><a href="" class="icon-weibo"></a></li>
+                    <li class="col-sm-3 col-lg-3"><a href="" class=""></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--联系我们结束-->
+<!--end开始-->
+    <div class="endk">
+        <p>生态农业公司 版权所有 © 2008-2016 湘ICP备8888888 </p>
+        <p>本页面内容为网站演示数据，前台页面内容都可以在后台修改。</p>
+        <p>Powered by
+            <a href="">MetInfo</a>
+            5.3.17
+        </p>
+    </div>
+</body>
+</html>
